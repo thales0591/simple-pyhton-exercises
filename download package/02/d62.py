@@ -1,0 +1,17 @@
+pt = int(input('Primeiro termo: '))
+rz = int(input('Razão: '))
+pa = pt
+count = 0
+while count != 10:
+    print(pa, end=' ')
+    pa += rz
+    count += 1
+perg = int(input('\nGostaria de ver mais quantos termos?: '))
+cont = 0
+while perg != 0:
+    cont = 0
+    while cont != perg:
+        print(pa, end=' ')
+        pa += rz
+        cont += 1
+    perg = int(input('\nGostaria de ver mais quantos termos?: '))

@@ -1,0 +1,5 @@
+numero = int(input('fala ai de 0 a 9999:'))
+print('unidade:', str(numero // 1)[-1])
+print('dezena:', str(numero // 10)[-1])
+print('centena:', str(numero // 100)[-1])
+print('milhar:', numero // 1000)
